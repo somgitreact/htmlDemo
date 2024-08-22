@@ -1,0 +1,63 @@
+@media screen and (max-width:540px){
+    .bannerBottom .wrp.flex_row {
+      flex-direction: column;
+    }
+    .font45 {
+      font-size: 5.5vw;
+    }
+    .expTitle {
+      text-indent: 7px;
+    }
+    .drive .wrp.flex_row {
+      flex-direction: column;
+      gap: 18px;
+    }
+    .drivTxt img {
+      width: 19%;
+    }
+    .grid {
+      grid-template-columns: 100%;
+    }
+    .opperTxt .sidespan {
+      width: 26%;
+    }
+    .joinTxt {
+      flex-direction: column;
+    }
+    .lftJoin {
+      width: 98%;
+      margin: 22px 0;
+    }
+    .uimg {
+      width: 65%;
+    }
+    .newsl .flex_row {
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+  
+    .newsl .lftJoin, .newsl .formNews {
+      min-height: auto;
+      justify-content: center;
+      align-items: center;
+    }
+    .sginup {
+      width: 100%;
+      text-align: center;
+    }
+    .wrp.flex_row{ flex-direction: column;}
+    .linksCol {
+      width: 100%;
+      align-items: start;
+      padding-top: 25px;
+    }
+    .studio .banstudio  .bandes {
+      background-color: #00000050;
+      padding: 10px;
+    }
+    .exprince .bandes {
+      background-color: #ffffff50;padding: 10px;
+    }
+  }
+  

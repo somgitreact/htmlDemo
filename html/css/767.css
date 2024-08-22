@@ -1,0 +1,89 @@
+@media screen and (max-width:767px){
+    .font23 {
+      font-size: 4.5vw;
+    }
+    .banrow2 {
+      grid-template-columns: 100%;
+    }
+    .ban2 img, .ban2:nth-child(2) img, .ban2:nth-child(1) img {
+      height: auto;
+      max-width: 100%;
+      width: 100%;
+    }
+    .ban2:nth-child(2) .bandes {
+      width: 60%;
+      left: 0;
+      right: 0;
+      margin: auto;
+    }
+    .drivTxt img {
+      width: 30%;
+    }
+    .stepTop.flex_row {
+      flex-direction: column;
+    }
+    .stepTxt {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin: 20px 0;
+    }
+    .stepBox {
+      flex-direction: column;
+      gap: 15px;
+    }
+    .stepLft {
+      width: 80%;
+    }
+    .font11 {
+      font-size: 3.3vw;
+    }
+    .font59 {
+      font-size: 6vw;
+    }
+    .boldTxt {
+      line-height: 100%;
+    }
+    .platformTxt {
+      width: 53%;
+  
+    }
+    .font236 {
+      line-height: 100%;
+    }
+  
+    .toprow {
+      flex-wrap: wrap;
+    }
+    .menuIcon {
+      display: flex;
+      flex-direction: column;
+      gap: 5px;cursor: pointer;
+    }
+    .mainNav {
+      order: 5;
+      width: 26px; 
+  
+    }
+    .mainNav ul{ display: none; }
+    .menuIcon span {
+      background-color: #fff;
+      height: 3px;
+      display: block;
+    }
+    #mainul {
+      position: absolute;
+      left: 11%;
+      z-index: 999;
+      top: 100%;
+      background-color: #000;
+      width: 89%;
+      box-shadow: -3px 9px 15px 0px #fff;
+    }
+    #mainul li {
+      border-bottom: 1px solid #ffffff40;
+      padding: 0 0 10px;
+    }
+    header{ position: relative; overflow: visible;}
+  }
+  

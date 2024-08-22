@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="text" value="" placeholder="enter font in px" id="pxValue" />
+<input type="text" value="" id="showPercent" />
+
+<div class="slidesContainer">
+    <div class="slide">slide 1</div>
+    <div class="slide">slide 2</div>
+    <div class="slide">slide 3</div>
+    <div class="slide">slide 4</div>
+</div>
+
+
+
+    <script>
+
+const pxValue = document.getElementById("pxValue");
+const percentValue = document.getElementById("showPercent");
+
+function valInpu(){
+    console.log(this.value);
+   
+    //const convertVal =( 100 * pxValue.value) / 16;
+   // const convertVal =( 325.8 * pxValue.value) / 100;
+    const convertVal = 3.5 / pxValue.value
+ percentValue.value= convertVal;
+    
+}
+
+pxValue.addEventListener("change", valInpu)
+
+org_html = document.getElementsByClassName("slidesContainer").innerHTML;
+new_html = "<div id='slidesInner'>" + org_html + "</div>";
+document.getElementsByClassName("slidesContainer").innerHTML = new_html;
+
+    </script>
+</body>
+</html>
